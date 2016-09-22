@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E64190F1D914C2100228FFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E64190E1D914C2100228FFF /* AppDelegate.swift */; };
+		4E6419111D914C2100228FFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6419101D914C2100228FFF /* ViewController.swift */; };
+		4E6419141D914C2100228FFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E6419121D914C2100228FFF /* Main.storyboard */; };
+		4E6419171D914C2100228FFF /* ACP_Australian_Construction_Products.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4E6419151D914C2100228FFF /* ACP_Australian_Construction_Products.xcdatamodeld */; };
+		4E6419191D914C2100228FFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E6419181D914C2100228FFF /* Assets.xcassets */; };
+		4E64191C1D914C2100228FFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E64191A1D914C2100228FFF /* LaunchScreen.storyboard */; };
+		4E6419241D91550900228FFF /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6419231D91550900228FFF /* ProductCell.swift */; };
+		4E6419261D91552300228FFF /* productDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6419251D91552300228FFF /* productDetails.swift */; };
+		4E64192A1D92024400228FFF /* Steps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6419291D92024400228FFF /* Steps.swift */; };
+		4E64192C1D9202D800228FFF /* stepModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E64192B1D9202D800228FFF /* stepModel.swift */; };
+		4EE3B7D01D92516F000625CE /* PopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE3B7CF1D92516F000625CE /* PopUpView.swift */; };
+		4EE3B7D21D926DF2000625CE /* CustomSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE3B7D11D926DF2000625CE /* CustomSegue.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4E64190B1D914C2100228FFF /* ACP Australian Construction Products.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ACP Australian Construction Products.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E64190E1D914C2100228FFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4E6419101D914C2100228FFF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4E6419131D914C2100228FFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4E6419161D914C2100228FFF /* ACP_Australian_Construction_Products.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ACP_Australian_Construction_Products.xcdatamodel; sourceTree = "<group>"; };
+		4E6419181D914C2100228FFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E64191B1D914C2100228FFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4E64191D1D914C2100228FFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E6419231D91550900228FFF /* ProductCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		4E6419251D91552300228FFF /* productDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = productDetails.swift; sourceTree = "<group>"; };
+		4E6419291D92024400228FFF /* Steps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Steps.swift; path = ../Steps.swift; sourceTree = "<group>"; };
+		4E64192B1D9202D800228FFF /* stepModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = stepModel.swift; path = ../stepModel.swift; sourceTree = "<group>"; };
+		4EE3B7CF1D92516F000625CE /* PopUpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpView.swift; sourceTree = "<group>"; };
+		4EE3B7D11D926DF2000625CE /* CustomSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSegue.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E6419081D914C2100228FFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E6419021D914C2100228FFF = {
+			isa = PBXGroup;
+			children = (
+				4E64190D1D914C2100228FFF /* ACP Australian Construction Products */,
+				4E64190C1D914C2100228FFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E64190C1D914C2100228FFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E64190B1D914C2100228FFF /* ACP Australian Construction Products.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E64190D1D914C2100228FFF /* ACP Australian Construction Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E64190E1D914C2100228FFF /* AppDelegate.swift */,
+				4E92BEEE1D93432E00F1B632 /* StepView */,
+				4E92BEED1D93430100F1B632 /* ProductDetailPage */,
+				4E92BEEC1D9342E400F1B632 /* ProductPage */,
+				4E6419181D914C2100228FFF /* Assets.xcassets */,
+				4E6419121D914C2100228FFF /* Main.storyboard */,
+				4E64191A1D914C2100228FFF /* LaunchScreen.storyboard */,
+				4E64191D1D914C2100228FFF /* Info.plist */,
+				4E6419151D914C2100228FFF /* ACP_Australian_Construction_Products.xcdatamodeld */,
+			);
+			path = "ACP Australian Construction Products";
+			sourceTree = "<group>";
+		};
+		4E92BEEC1D9342E400F1B632 /* ProductPage */ = {
+			isa = PBXGroup;
+			children = (
+				4E6419231D91550900228FFF /* ProductCell.swift */,
+				4E6419101D914C2100228FFF /* ViewController.swift */,
+			);
+			name = ProductPage;
+			sourceTree = "<group>";
+		};
+		4E92BEED1D93430100F1B632 /* ProductDetailPage */ = {
+			isa = PBXGroup;
+			children = (
+				4E6419251D91552300228FFF /* productDetails.swift */,
+				4EE3B7D11D926DF2000625CE /* CustomSegue.swift */,
+			);
+			name = ProductDetailPage;
+			sourceTree = "<group>";
+		};
+		4E92BEEE1D93432E00F1B632 /* StepView */ = {
+			isa = PBXGroup;
+			children = (
+				4E64192B1D9202D800228FFF /* stepModel.swift */,
+				4E6419291D92024400228FFF /* Steps.swift */,
+				4EE3B7CF1D92516F000625CE /* PopUpView.swift */,
+			);
+			name = StepView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E64190A1D914C2100228FFF /* ACP Australian Construction Products */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E6419201D914C2100228FFF /* Build configuration list for PBXNativeTarget "ACP Australian Construction Products" */;
+			buildPhases = (
+				4E6419071D914C2100228FFF /* Sources */,
+				4E6419081D914C2100228FFF /* Frameworks */,
+				4E6419091D914C2100228FFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ACP Australian Construction Products";
+			productName = "ACP Australian Construction Products";
+			productReference = 4E64190B1D914C2100228FFF /* ACP Australian Construction Products.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E6419031D914C2100228FFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Davin Glick";
+				TargetAttributes = {
+					4E64190A1D914C2100228FFF = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = YNE7SAJRJY;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4E6419061D914C2100228FFF /* Build configuration list for PBXProject "ACP Australian Construction Products" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E6419021D914C2100228FFF;
+			productRefGroup = 4E64190C1D914C2100228FFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E64190A1D914C2100228FFF /* ACP Australian Construction Products */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E6419091D914C2100228FFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E64191C1D914C2100228FFF /* LaunchScreen.storyboard in Resources */,
+				4E6419191D914C2100228FFF /* Assets.xcassets in Resources */,
+				4E6419141D914C2100228FFF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E6419071D914C2100228FFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E64192C1D9202D800228FFF /* stepModel.swift in Sources */,
+				4EE3B7D01D92516F000625CE /* PopUpView.swift in Sources */,
+				4E6419111D914C2100228FFF /* ViewController.swift in Sources */,
+				4E6419241D91550900228FFF /* ProductCell.swift in Sources */,
+				4E6419261D91552300228FFF /* productDetails.swift in Sources */,
+				4E64192A1D92024400228FFF /* Steps.swift in Sources */,
+				4E6419171D914C2100228FFF /* ACP_Australian_Construction_Products.xcdatamodeld in Sources */,
+				4EE3B7D21D926DF2000625CE /* CustomSegue.swift in Sources */,
+				4E64190F1D914C2100228FFF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4E6419121D914C2100228FFF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E6419131D914C2100228FFF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4E64191A1D914C2100228FFF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E64191B1D914C2100228FFF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E64191E1D914C2100228FFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4E64191F1D914C2100228FFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E6419211D914C2100228FFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YNE7SAJRJY;
+				INFOPLIST_FILE = "ACP Australian Construction Products/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hello.ACP-Australian-Construction-Products";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4E6419221D914C2100228FFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YNE7SAJRJY;
+				INFOPLIST_FILE = "ACP Australian Construction Products/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hello.ACP-Australian-Construction-Products";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E6419061D914C2100228FFF /* Build configuration list for PBXProject "ACP Australian Construction Products" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E64191E1D914C2100228FFF /* Debug */,
+				4E64191F1D914C2100228FFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E6419201D914C2100228FFF /* Build configuration list for PBXNativeTarget "ACP Australian Construction Products" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E6419211D914C2100228FFF /* Debug */,
+				4E6419221D914C2100228FFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4E6419151D914C2100228FFF /* ACP_Australian_Construction_Products.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4E6419161D914C2100228FFF /* ACP_Australian_Construction_Products.xcdatamodel */,
+			);
+			currentVersion = 4E6419161D914C2100228FFF /* ACP_Australian_Construction_Products.xcdatamodel */;
+			path = ACP_Australian_Construction_Products.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4E6419031D914C2100228FFF /* Project object */;
+}
